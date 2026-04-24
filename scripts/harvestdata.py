@@ -1,1 +1,1 @@
-print("Currently harvesting and downloading data...")
+print("Harvesting data from yfinance and FRED API")
