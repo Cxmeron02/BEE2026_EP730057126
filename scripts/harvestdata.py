@@ -1,7 +1,7 @@
-import pandas as pd
 import yfinance as yfin
 
 print("Gathering ETF data from Yahoo Finance...")
+
 
 # Create a list of ETF tickers to identify sector proxies
 etf_tickers = ["XLK", "XLF", "XLE", "XLV", "SPY"]
@@ -17,7 +17,7 @@ for etf_ticker in etf_tickers:
 
     # Check for any empty datasets
     if data.empty:
-        print(f"Failed: No data available to download for {etf_ticker}")
+        print(f"Failed: No data available for {etf_ticker}")
         continue
 
     # Save the data as a CSV file
