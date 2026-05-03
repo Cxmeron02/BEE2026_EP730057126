@@ -72,4 +72,4 @@ merged_data = merged_data[
 
 ##merged_data.to_csv(SP500_file, index=False)
 
-print(f"Saved combined dataset to {SP500_file}")
+##print(f"Saved combined dataset to {SP500_file}")
