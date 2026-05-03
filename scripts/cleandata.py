@@ -1,1 +1,1 @@
-print("Cleaning data for sufficient analysis and comparison")
+print("Cleaning data for useful and insightful analysis")
