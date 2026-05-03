@@ -68,8 +68,7 @@ merged_data = merged_data[
 
 # Save output
 
-##SP500_file = "data/raw/sp500_combined.csv"
+SP500_file = "data/raw/sp500_combined.csv"
+merged_data.to_csv(SP500_file, index=False)
 
-##merged_data.to_csv(SP500_file, index=False)
-
-##print(f"Saved combined dataset to {SP500_file}")
+print(f"Saved combined dataset to {SP500_file}")
