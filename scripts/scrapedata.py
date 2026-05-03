@@ -24,8 +24,6 @@ wiki_table = wiki_data[0]
 # Select relevant columns for future analysis
 wiki_table = wiki_table[["Symbol", "Security", "GICS Sector"]].copy()
 
-# Standardise ticker format (e.g. Berkshire Hathaway Inc: BRK.B → BRK-B)
-wiki_table["Symbol"] = wiki_table["Symbol"].str.replace(".", "-", regex=False)
 
 print("Wikipedia S&P500 data succesfully collected")
 
