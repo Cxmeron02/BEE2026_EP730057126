@@ -7,6 +7,4 @@ This is the repository for my empirical project for BEE2041.
 
 # Required Python libraries 
 
-# Project replication
-
-
+# Project replication order
