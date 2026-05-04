@@ -22,7 +22,7 @@ for etf_ticker in etf_tickers:
     # Keep required columns
     dataset = dataset[["Date", "Close", "Volume"]]
 
-    # Rename these columns for new dataset
+    # Rename selected columns for new dataset for clarity
     dataset = dataset.rename(columns={
         "Close": f"{etf_ticker}_Close",
         "Volume": f"{etf_ticker}_Volume"
@@ -30,6 +30,8 @@ for etf_ticker in etf_tickers:
 
     # Remove all rows with any missing values
     dataset = dataset.dropna()
+    # Ensure all values are in chronological order
+    dataset = dataset.sort_values(by="Date")
 
     # Merge daily closing price data by date
     if price_data.empty:
@@ -54,10 +56,10 @@ for etf_ticker in etf_tickers:
         )
 
 # Save cleaned ETF datasets
-###price_data.to_csv("data/cleaned/sector_prices.csv", index=False)
-###volume_data.to_csv("data/cleaned/sector_volumes.csv", index=False)
+price_data.to_csv("data/cleaned/prices_clean.csv", index=False)
+volume_data.to_csv("data/cleaned/volume_clean.csv", index=False)
 
-print("/nCleaned ETF price and volume datasets saved")
+print("\nCleaned ETF price and volume datasets saved")
 
 # Section 2: Clean scraped S&P500 dataset
 
@@ -94,7 +96,7 @@ sp500_cleaned = sp500_cleaned.sort_values(
 )
 
 # Save cleaned row-level S&P500 dataset to data/cleaned folder
-##sp500_cleaned.to_csv("data/cleaned/sp500_cleaned.csv", index=False)
+sp500_cleaned.to_csv("data/cleaned/sp500_cleaned.csv", index=False)
 print("\nCleaned S&P 500 table saved")
 
 # Section 3: Check for any remaining errors or inconsistencies in the cleaned datasets.
@@ -105,4 +107,3 @@ print(volume_data.head())
 
 print("\nFinal cleaned S&P 500 company weights:")
 print(sp500_cleaned.head())
-
