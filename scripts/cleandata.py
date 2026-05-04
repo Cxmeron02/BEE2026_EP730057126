@@ -1,6 +1,6 @@
 import pandas as pd
 
-print("Cleaning raw dataset .csv files for useful and insightful analysis")
+print("\nCleaning raw dataset .csv files for useful and insightful analysis")
 
 # Section 1: Load and clean ETF CSV files
 
@@ -16,7 +16,8 @@ for etf_ticker in etf_tickers:
 
     file = f"data/raw/{etf_ticker}.csv"
 
-    dataset = pd.read_csv(file)
+    dataset = pd.read_csv(file, skiprows=[1,2])
+    dataset = dataset.rename(columns={"Price": "Date"})
 
     # Keep required columns
     dataset = dataset[["Date", "Close", "Volume"]]
@@ -53,19 +54,19 @@ for etf_ticker in etf_tickers:
         )
 
 # Save cleaned ETF datasets
-price_data.to_csv("data/cleaned/sector_prices.csv", index=False)
-volume_data.to_csv("data/cleaned/sector_volumes.csv", index=False)
+###price_data.to_csv("data/cleaned/sector_prices.csv", index=False)
+###volume_data.to_csv("data/cleaned/sector_volumes.csv", index=False)
 
-print("Cleaned ETF price and volume datasets saved")
+print("/nCleaned ETF price and volume datasets saved")
 
 # Section 2: Clean scraped S&P500 dataset
 
-print("Cleaning scraped S&P 500 dataset...")
+print("\nCleaning scraped S&P 500 dataset...")
 
 sp500 = pd.read_csv("data/raw/sp500_combined.csv")
 
 # Check missing values
-print("Missing values before cleaning:")
+print("\nMissing values before cleaning:")
 print(sp500.isna().sum())
 
 # Remove all rows with missing sector information.
@@ -78,7 +79,7 @@ sp500["Company"] = sp500["Company"].str.strip()
 sp500["GICS Sector"] = sp500["GICS Sector"].str.strip()
 
 # Check for any duplicate company names
-print("Duplicate company names before grouping:")
+print("\nDuplicate company names before grouping:")
 print(sp500["Company"].duplicated().sum())
 
 # Combine any duplicate company rows by summing their weight. 
@@ -93,14 +94,15 @@ sp500_cleaned = sp500_cleaned.sort_values(
 )
 
 # Save cleaned row-level S&P500 dataset to data/cleaned folder
-###sp500_cleaned.to_csv("data/cleaned/sp500_cleaned.csv", index=False)
-print("Cleaned S&P 500 table saved")
+##sp500_cleaned.to_csv("data/cleaned/sp500_cleaned.csv", index=False)
+print("\nCleaned S&P 500 table saved")
 
 # Section 3: Check for any remaining errors or inconsistencies in the cleaned datasets.
 
-print("Final cleaned ETF price data:")
-####print(price_data.head())
+print("\nFinal cleaned ETF price and volume data:")
+print(price_data.head())
+print(volume_data.head())
 
-print("Final cleaned S&P 500 company weights:")
-###print(sp500_company_weights.head())
+print("\nFinal cleaned S&P 500 company weights:")
+print(sp500_cleaned.head())
 

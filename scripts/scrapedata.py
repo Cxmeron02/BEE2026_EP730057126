@@ -9,7 +9,7 @@ headers = {
     "Referer": "https://www.google.com/"
 }
 
-print("Scraping S&P 500 data...")
+print("\nScraping S&P 500 data...")
 
 # Wikipedia data
 wiki_url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -24,8 +24,7 @@ wiki_table = wiki_data[0]
 # Select relevant columns for future analysis
 wiki_table = wiki_table[["Symbol", "Security", "GICS Sector"]].copy()
 
-
-print("Wikipedia S&P500 data succesfully collected")
+print("\nWikipedia S&P500 data succesfully collected")
 
 # Slickcharts data
 slickchart_url = "https://www.slickcharts.com/sp500"
@@ -46,7 +45,7 @@ slickchart_table.columns = ["Rank", "Company", "Symbol", "Weight (%)"]
 slickchart_table["Weight (%)"] = slickchart_table["Weight (%)"].str.replace("%", "", regex=False)
 slickchart_table["Weight (%)"] = pd.to_numeric(slickchart_table["Weight (%)"])
 
-print("Slickcharts S&P500 data successfully collected")
+print("\nSlickcharts S&P500 data successfully collected")
 
 #   Merge datasets
 merged_data = pd.merge(
