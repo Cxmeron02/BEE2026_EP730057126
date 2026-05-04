@@ -59,12 +59,9 @@ print("New merged dataset created with Wikipedia and Slickcharts data")
 
 # Reorder columns for readability/logic
 
-merged_data = merged_data[
-    ["Rank", "Symbol", "Security", "Company", "GICS Sector", "Weight (%)"]
-]
+merged_data = merged_data[["Rank", "Symbol", "Security", "Company", "GICS Sector", "Weight (%)"]]
 
 # Save output
-
 SP500_file = "data/raw/sp500_combined.csv"
 merged_data.to_csv(SP500_file, index=False)
 

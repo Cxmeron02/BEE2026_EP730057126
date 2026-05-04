@@ -90,10 +90,7 @@ sp500_cleaned = sp500.groupby(
     as_index=False
 )["Weight (%)"].sum()
 
-sp500_cleaned = sp500_cleaned.sort_values(
-    by="Weight (%)",
-    ascending=False
-)
+sp500_cleaned = sp500_cleaned.sort_values(by="Weight (%)", ascending=False)
 
 # Save cleaned row-level S&P500 dataset to data/cleaned folder
 sp500_cleaned.to_csv("data/cleaned/sp500_cleaned.csv", index=False)
