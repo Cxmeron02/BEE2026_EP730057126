@@ -16,6 +16,7 @@ for etf_ticker in etf_tickers:
 
     file = f"data/raw/{etf_ticker}.csv"
 
+    # Skip the first two rows of the CSV file rename "Price" column to "Date".
     dataset = pd.read_csv(file, skiprows=[1,2])
     dataset = dataset.rename(columns={"Price": "Date"})
 
@@ -44,7 +45,7 @@ for etf_ticker in etf_tickers:
             how="inner"
         )
 
-        # Merge data for total number of shares traded by date
+    # Merge data for total number of shares traded by date
     if volume_data.empty:
         volume_data = dataset[["Date", f"{etf_ticker}_Volume"]]
     else:
@@ -99,8 +100,8 @@ print("\nCleaned S&P 500 table saved")
 # Section 3: Check for any remaining errors or inconsistencies in the cleaned datasets.
 
 print("\nFinal cleaned ETF price and volume data:")
-print(price_data.head())
-print(volume_data.head())
+print(price_data.head(20))
+print(volume_data.head(20))
 
 print("\nFinal cleaned S&P 500 company weights:")
-print(sp500_cleaned.head())
+print(sp500_cleaned.head(20))

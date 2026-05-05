@@ -6,7 +6,7 @@ print("Gathering ETF data from Yahoo Finance...")
 # Create a list of ETF tickers to identify sector proxies
 etf_tickers = ["XLK", "XLF", "XLE", "XLV", "SPY"]
 
-# Establish time range for data retrieval.
+# Establish time range for data retrieval (2010-2025 inclusive).
 start_date = "2010-01-01"
 end_date = "2025-12-31"
 
@@ -23,7 +23,7 @@ for etf_ticker in etf_tickers:
     # Save the data as a CSV file
     filename = f"data/raw/{etf_ticker}.csv"
     data.to_csv(filename)
-
+    # Confirm files have been succesfully stored in the data/raw directory
     print(f"Downloaded and Saved: {filename}")
 
 print("Finished downloading ETF data from Yahoo Finance")

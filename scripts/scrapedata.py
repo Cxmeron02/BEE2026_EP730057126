@@ -2,6 +2,8 @@ import pandas as pd
 import requests
 from io import StringIO
 
+# Set headers to resemble a realistic browser request and avoid blocking.
+
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
     "Accept-Language": "en-US,en;q=0.9",
@@ -38,11 +40,12 @@ slickchart_table = slickchart_data[0]
 # Keep relevant columns
 slickchart_table = slickchart_table[["#", "Company", "Symbol", "Weight"]].copy()
 
-# Rename columns
+# Rename relevant columns
 slickchart_table.columns = ["Rank", "Company", "Symbol", "Weight (%)"]
 
-# Clean weight column
+# Remove percentage signs from weight column
 slickchart_table["Weight (%)"] = slickchart_table["Weight (%)"].str.replace("%", "", regex=False)
+# Clean weight column to convert to numeric format for future analysis
 slickchart_table["Weight (%)"] = pd.to_numeric(slickchart_table["Weight (%)"])
 
 print("\nSlickcharts S&P500 data successfully collected")
