@@ -19,6 +19,7 @@ price_columns = ["XLK_Close", "XLF_Close", "XLE_Close", "XLV_Close", "SPY_Close"
 
 normalised_prices = prices.copy()
 
+# Normalise each price column by expressing each value as percentage of initial value.
 for column in price_columns:
     normalised_prices[column] = (normalised_prices[column] / normalised_prices[column].iloc[0]) * 100
 
@@ -30,6 +31,7 @@ print("\nNormalised price data saved")
 
 daily_returns = prices.copy()
 
+# Express daily returns as percentage change from previous day.
 for column in price_columns:
     daily_returns[column] = daily_returns[column].pct_change()
 
@@ -62,14 +64,16 @@ print("\nCumulative returns data saved")
 
 #4) Risk-return summary
 
-# Create empty list to store summary data for each ETF
+# Create empty list to store summary data for each ETF.
 summary_data = []
 
 for column in price_columns:
     average_daily_return = daily_returns[column].mean()
+    # Use 252 as the number of trading days in a year.
     annualised_return = average_daily_return * 252
     annualised_volatility = daily_returns[column].std() * np.sqrt(252)
 
+    # Append summary data for each ETF to empty list.
     summary_data.append([
         column,
         average_daily_return,
@@ -137,7 +141,7 @@ volume_ratio.to_csv("outputs/tables/volume_ratio.csv", index=False)
 
 print("\nVolume ratio data saved")
 
-# Final checks
+# Print first 5 rows of each dataset ensure all contain expected data.
 print("\nNormalised prices:")
 print(normalised_prices.head(5))
 
