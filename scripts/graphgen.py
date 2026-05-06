@@ -114,6 +114,7 @@ plt.close()
 
 # Figure 6: Annualised volatility by ETF
 
+# Convert to percentage form for easier interpretation
 risk_return_summary["Annualised Volatility (%)"] = (risk_return_summary["Annualised Volatility"] * 100)
 
 risk_return_summary.plot(
@@ -132,8 +133,8 @@ plt.close()
 
 # Figure 7: Risk-return scatter plot
 
+# Convert both annualised return and volatility to percentages for better visualisation.
 risk_return_summary["Annualised Return (%)"] = (risk_return_summary["Annualised Return"] * 100)
-
 risk_return_summary["Annualised Volatility (%)"] = (risk_return_summary["Annualised Volatility"] * 100)
 
 plt.scatter(
@@ -161,6 +162,7 @@ plt.close()
 
 volume_ratio_smooth = volume_ratio.copy()
 
+# Taking 63 as number of trading days in a quarter (252 divided by 4) to smooth the volume ratio data. 
 volume_ratio_smooth["XLK_to_SPY"] = volume_ratio_smooth["XLK_to_SPY"].rolling(63).mean()
 volume_ratio_smooth["XLF_to_SPY"] = volume_ratio_smooth["XLF_to_SPY"].rolling(63).mean()
 volume_ratio_smooth["XLE_to_SPY"] = volume_ratio_smooth["XLE_to_SPY"].rolling(63).mean()
