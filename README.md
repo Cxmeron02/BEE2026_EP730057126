@@ -26,25 +26,36 @@ BEE2026_EP730057126/
 │
 ├── README.md
 └── requirements.txt
+```
 
 # Data sources
 
-Yahoo Finance (yfinance python library)
+```text
+Yahoo Finance (ETFs: XLK, XLF, XLE, XLV, SPY)
 Wikipedia S&P 500 List
 Slickchart S&P 500 List
+```
 
 # Required Python libraries 
 
 Run this in terminal to ensure all required packages are downloaded
 
 ```bash 
+
 pip install requirements.txt
+
 ```
 
 # Project replication order
 
-scrapedata.py
-harvestdata.py
-cleandata.py
-dataanalysis.py
-graphgen.py
+Run these scripts in the follwoing order:
+
+```bash
+
+python scrapedata.py
+python harvestdata.py
+python cleandata.py
+python dataanalysis.py
+python graphgen.py
+
+```
