@@ -3,6 +3,7 @@ This is the repository for my empirical project for BEE2041. The purpose of this
 
 # Repository structure/directory
 
+```text
 BEE2026_EP730057126/
 │
 ├– blogpost/                   # Final blog post
@@ -34,7 +35,11 @@ Slickchart S&P 500 List
 
 # Required Python libraries 
 
-requirements.txt
+Run this in terminal to ensure all required packages are downloaded
+
+```bash 
+pip install requirements.txt
+```
 
 # Project replication order
 
