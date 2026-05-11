@@ -34,12 +34,12 @@ BEE2026_EP730057126/
 ```text
 1) Yahoo Finance 
 
-– Provides data for sector ETFs (XLK, XLF, XLE, XLV, SPY), to use as proxy values for the wider, respective sector performance
+– Provides data for sector ETFs (XLK, XLF, XLE, XLV, SPY), to use as proxy values for the wider, respective sector performance.
 
 2) Wikipedia S&P 500 List
 3) Slickchart S&P 500 List
 
-– Provides full list of companies listed on S&P 500, along with their respective sector classification and market weights.
+– Combine to generate a full list of firms listed on S&P 500, containing their respective sector classification and market weights.
 ```
 
 # Required Python libraries 
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 # Project replication order
 
-Run these scripts in the follwoing order in Terminalx:
+Run these scripts in the following order in Terminal:
 
 ```bash
 python harvestdata.py
