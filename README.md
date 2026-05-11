@@ -55,8 +55,8 @@ pip install -r requirements.txt
 Run these scripts in the follwoing order in Terminalx:
 
 ```bash
-python scrapedata.py
 python harvestdata.py
+python scrapedata.py
 python cleandata.py
 python dataanalysis.py
 python graphgen.py
