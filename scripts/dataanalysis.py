@@ -122,7 +122,7 @@ sector_weight_summary = pd.merge(
     on="GICS Sector"
 )
 
-#Order by "Total Weight (%)" in descending order.  
+# Order by "Total Weight (%)" in descending order.  
 sector_weight_summary = sector_weight_summary.sort_values(by="Total Weight (%)", ascending=False)
 
 sector_weight_summary.to_csv("outputs/tables/sector_weight_summary.csv",index=False)
