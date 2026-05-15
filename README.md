@@ -1,6 +1,6 @@
 # U.S Stock Market Empirical Project
 
-This is the repository for my empirical project for BEE2041. This project investigates the evolution of the U.S stock market in the years post- financial crisis, focusing on comparing performance of different sectors as well as the growth of ETF trading activity and passive investment strategies. 
+This is the repository for my empirical project for BEE2041. This project investigates the evolution of the U.S stock market in the years post-financial crisis, focusing on comparing performance of different sectors as well as the growth of ETF trading activity and passive investment strategies. 
 
 # Repository structure
 
