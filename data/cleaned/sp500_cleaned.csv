@@ -1,0 +1,501 @@
+Company,GICS Sector,Weight (%)
+NVIDIA Corp,Information Technology,7.34
+Alphabet Inc,Communication Services,7.09
+Apple Inc,Information Technology,6.26
+Microsoft Corp,Information Technology,4.69
+Amazon.com Inc,Consumer Discretionary,4.39
+Broadcom Inc,Information Technology,3.04
+Meta Platforms Inc,Communication Services,2.35
+Tesla Inc,Consumer Discretionary,2.23
+Walmart Inc,Consumer Staples,1.6
+Berkshire Hathaway Inc,Financials,1.55
+Eli Lilly & Co,Health Care,1.31
+JPMorgan Chase & Co,Financials,1.27
+Exxon Mobil Corp,Energy,0.97
+Visa Inc,Financials,0.95
+Micron Technology Inc,Information Technology,0.93
+Advanced Micro Devices Inc,Information Technology,0.89
+Johnson & Johnson,Health Care,0.83
+Intel Corp,Information Technology,0.76
+Oracle Corp,Information Technology,0.75
+Costco Wholesale Corp,Consumer Staples,0.68
+Mastercard Inc,Financials,0.67
+Caterpillar Inc,Industrials,0.63
+Netflix Inc,Communication Services,0.59
+Bank of America Corp,Financials,0.58
+Chevron Corp,Energy,0.58
+AbbVie Inc,Health Care,0.56
+Cisco Systems Inc,Information Technology,0.55
+Palantir Technologies Inc,Information Technology,0.53
+Procter & Gamble Co/The,Consumer Staples,0.52
+Coca-Cola Co/The,Consumer Staples,0.51
+UnitedHealth Group Inc,Health Care,0.51
+Home Depot Inc/The,Consumer Discretionary,0.49
+Lam Research Corp,Information Technology,0.49
+Applied Materials Inc,Information Technology,0.47
+Morgan Stanley,Financials,0.46
+General Electric Co,Industrials,0.46
+GE Vernova Inc,Industrials,0.43
+Merck & Co Inc,Health Care,0.42
+Goldman Sachs Group Inc/The,Financials,0.41
+Philip Morris International Inc,Consumer Staples,0.39
+Texas Instruments Inc,Information Technology,0.39
+Wells Fargo & Co,Financials,0.38
+RTX Corp,Industrials,0.36
+Linde PLC,Materials,0.36
+KLA Corp,Information Technology,0.34
+PepsiCo Inc,Consumer Staples,0.33
+Arista Networks Inc,Information Technology,0.33
+American Express Co,Financials,0.33
+International Business Machines Corp,Information Technology,0.33
+Citigroup Inc,Financials,0.33
+T-Mobile US Inc,Communication Services,0.32
+McDonald's Corp,Consumer Discretionary,0.31
+Verizon Communications Inc,Communication Services,0.31
+NextEra Energy Inc,Utilities,0.31
+Analog Devices Inc,Information Technology,0.3
+QUALCOMM Inc,Information Technology,0.28
+Walt Disney Co/The,Communication Services,0.28
+AT&T Inc,Communication Services,0.28
+Amphenol Corp,Information Technology,0.27
+Boeing Co/The,Industrials,0.27
+Thermo Fisher Scientific Inc,Health Care,0.27
+Sandisk Corp/DE,Information Technology,0.27
+Amgen Inc,Health Care,0.27
+TJX Cos Inc/The,Consumer Discretionary,0.26
+Blackrock Inc,Financials,0.25
+Seagate Technology Holdings PLC,Information Technology,0.25
+Gilead Sciences Inc,Health Care,0.25
+Eaton Corp PLC,Industrials,0.25
+Intuitive Surgical Inc,Health Care,0.25
+Blackstone Inc,Financials,0.24
+Deere & Co,Industrials,0.24
+AppLovin Corp,Information Technology,0.24
+Charles Schwab Corp/The,Financials,0.24
+Abbott Laboratories,Health Care,0.24
+Union Pacific Corp,Industrials,0.24
+ConocoPhillips,Energy,0.23
+Pfizer Inc,Health Care,0.23
+Uber Technologies Inc,Industrials,0.23
+Welltower Inc,Real Estate,0.23
+Salesforce Inc,Information Technology,0.23
+Palo Alto Networks Inc,Information Technology,0.22
+Western Digital Corp,Information Technology,0.22
+Dell Technologies Inc,Information Technology,0.21
+Corning Inc,Information Technology,0.21
+Honeywell International Inc,Industrials,0.21
+Prologis Inc,Real Estate,0.2
+Lowe's Cos Inc,Consumer Discretionary,0.2
+Booking Holdings Inc,Consumer Discretionary,0.2
+S&P Global Inc,Financials,0.19
+Chubb Ltd,Financials,0.19
+Altria Group Inc,Consumer Staples,0.19
+Capital One Financial Corp,Financials,0.19
+Vertiv Holdings,Industrials,0.19
+Danaher Corp,Health Care,0.19
+Crowdstrike Holdings Inc,Information Technology,0.18
+Progressive Corp/The,Financials,0.18
+Bristol-Myers Squibb Co,Health Care,0.18
+Lockheed Martin Corp,Industrials,0.18
+Newmont Corp,Materials,0.18
+Starbucks Corp,Consumer Discretionary,0.18
+Stryker Corp,Health Care,0.17
+Intuit Inc,Information Technology,0.17
+Constellation Energy Corp,Utilities,0.17
+Parker-Hannifin Corp,Industrials,0.17
+Accenture PLC,Information Technology,0.17
+Southern Co/The,Utilities,0.17
+Quanta Services Inc,Industrials,0.17
+Equinix Inc,Real Estate,0.16
+CVS Health Corp,Health Care,0.16
+CME Group Inc,Financials,0.16
+Vertex Pharmaceuticals Inc,Health Care,0.16
+Medtronic PLC,Health Care,0.16
+Trane Technologies PLC,Industrials,0.16
+HCA Healthcare Inc,Health Care,0.15
+McKesson Corp,Health Care,0.15
+Howmet Aerospace Inc,Industrials,0.15
+Comcast Corp,Communication Services,0.15
+Adobe Inc,Information Technology,0.15
+Duke Energy Corp,Utilities,0.15
+Johnson Controls International plc,Industrials,0.14
+Waste Management Inc,Industrials,0.14
+KKR & Co Inc,Financials,0.14
+Cummins Inc,Industrials,0.14
+Williams Cos Inc/The,Energy,0.14
+ServiceNow Inc,Information Technology,0.14
+Marriott International Inc/MD,Consumer Discretionary,0.14
+Bank of New York Mellon Corp/The,Financials,0.14
+Cadence Design Systems Inc,Information Technology,0.14
+PNC Financial Services Group Inc/The,Financials,0.14
+FedEx Corp,Industrials,0.14
+Synopsys Inc,Information Technology,0.14
+United Parcel Service Inc,Industrials,0.14
+General Dynamics Corp,Industrials,0.14
+US Bancorp,Financials,0.13
+American Tower Corp,Real Estate,0.13
+Boston Scientific Corp,Health Care,0.13
+Airbnb Inc,Consumer Discretionary,0.13
+Intercontinental Exchange Inc,Financials,0.13
+CSX Corp,Industrials,0.13
+SLB Ltd,Energy,0.13
+Automatic Data Processing Inc,Industrials,0.13
+DoorDash Inc,Consumer Discretionary,0.12
+Elevance Health Inc,Health Care,0.12
+Emerson Electric Co,Industrials,0.12
+O'Reilly Automotive Inc,Consumer Discretionary,0.12
+CRH PLC,Materials,0.12
+Moody's Corp,Financials,0.12
+Monolithic Power Systems Inc,Information Technology,0.12
+Mondelez International Inc,Consumer Staples,0.12
+Ciena,Information Technology,0.12
+Sherwin-Williams Co/The,Materials,0.12
+Marsh & McLennan Cos Inc,Financials,0.12
+Northrop Grumman Corp,Industrials,0.12
+Freeport-McMoRan Inc,Materials,0.12
+Ecolab Inc,Materials,0.11
+Hilton Worldwide Holdings Inc,Consumer Discretionary,0.11
+Illinois Tool Works Inc,Industrials,0.11
+Norfolk Southern Corp,Industrials,0.11
+NXP Semiconductors NV,Information Technology,0.11
+Kinder Morgan Inc,Energy,0.11
+Marathon Petroleum Corp,Energy,0.11
+Motorola Solutions Inc,Information Technology,0.11
+Monster Beverage Corp,Consumer Staples,0.11
+3M Co,Industrials,0.11
+Regeneron Pharmaceuticals Inc,Health Care,0.11
+Cigna Group/The,Health Care,0.11
+Royal Caribbean Cruises Ltd,Consumer Discretionary,0.11
+Valero Energy Corp,Energy,0.11
+Ross Stores Inc,Consumer Discretionary,0.11
+Apollo Global Management Inc,Financials,0.11
+Digital Realty Trust Inc,Real Estate,0.11
+EOG Resources Inc,Energy,0.11
+Colgate-Palmolive Co,Consumer Staples,0.11
+Phillips 66,Energy,0.11
+American Electric Power Co Inc,Utilities,0.11
+Cintas Corp,Industrials,0.1
+Robinhood Markets Inc,Financials,0.1
+Republic Services Inc,Industrials,0.1
+Comfort Systems USA Inc,Industrials,0.1
+Simon Property Group Inc,Real Estate,0.1
+NIKE Inc,Consumer Discretionary,0.1
+Aon PLC,Financials,0.1
+Warner Bros Discovery Inc,Communication Services,0.1
+Fortinet Inc,Information Technology,0.1
+Air Products and Chemicals Inc,Materials,0.1
+General Motors Co,Consumer Discretionary,0.1
+Lumentum Holdings,Information Technology,0.1
+TransDigm Group Inc,Industrials,0.1
+Travelers Cos Inc/The,Financials,0.1
+Truist Financial Corp,Financials,0.1
+Baker Hughes Co,Energy,0.1
+AutoZone Inc,Consumer Discretionary,0.09
+Keysight Technologies Inc,Information Technology,0.09
+Target Corp,Consumer Staples,0.09
+Sempra,Utilities,0.09
+Cencora Inc,Health Care,0.09
+TE Connectivity PLC,Information Technology,0.09
+Carrier Global Corp,Industrials,0.09
+Diamondback Energy Inc,Energy,0.09
+United Rentals Inc,Industrials,0.09
+ONEOK Inc,Energy,0.09
+Occidental Petroleum Corp,Energy,0.09
+Dominion Energy Inc,Utilities,0.09
+PACCAR Inc,Industrials,0.09
+Aflac Inc,Financials,0.09
+L3Harris Technologies Inc,Industrials,0.09
+Realty Income Corp,Real Estate,0.09
+Coherent,Information Technology,0.09
+Xcel Energy Inc,Utilities,0.08
+Allstate Corp/The,Financials,0.08
+WW Grainger Inc,Industrials,0.08
+Autodesk Inc,Information Technology,0.08
+AMETEK Inc,Industrials,0.08
+Vistra Corp,Utilities,0.08
+Arthur J Gallagher & Co,Financials,0.08
+Nucor Corp,Materials,0.08
+Teradyne Inc,Information Technology,0.08
+Coinbase Global Inc,Financials,0.08
+Electronic Arts Inc,Communication Services,0.08
+Entergy Corp,Utilities,0.08
+Datadog Inc,Information Technology,0.08
+Nasdaq Inc,Financials,0.08
+Public Storage,Real Estate,0.08
+Corteva Inc,Materials,0.08
+Microchip Technology Inc,Information Technology,0.08
+MetLife Inc,Financials,0.08
+Fastenal Co,Industrials,0.08
+Carvana Co,Consumer Discretionary,0.08
+Targa Resources Corp,Energy,0.08
+Rockwell Automation Inc,Industrials,0.07
+MSCI Inc,Financials,0.07
+Ventas Inc,Real Estate,0.07
+Westinghouse Air Brake Technologies Corp,Industrials,0.07
+PayPal Holdings Inc,Financials,0.07
+Yum! Brands Inc,Consumer Discretionary,0.07
+Old Dominion Freight Line Inc,Industrials,0.07
+Zoetis Inc,Health Care,0.07
+IDEXX Laboratories Inc,Health Care,0.07
+eBay Inc,Consumer Discretionary,0.07
+Ford Motor Co,Consumer Discretionary,0.07
+Fifth Third Bancorp,Financials,0.07
+Delta Air Lines Inc,Industrials,0.07
+Exelon Corp,Utilities,0.07
+Garmin Ltd,Consumer Discretionary,0.07
+Block Inc,Financials,0.07
+Cardinal Health Inc,Health Care,0.07
+Edwards Lifesciences Corp,Health Care,0.07
+ON Semiconductor Corp,Information Technology,0.06
+Crown Castle Inc,Real Estate,0.06
+Martin Marietta Materials Inc,Materials,0.06
+Keurig Dr Pepper Inc,Consumer Staples,0.06
+PG&E Corp,Utilities,0.06
+Kroger Co/The,Consumer Staples,0.06
+Live Nation Entertainment Inc,Communication Services,0.06
+EMCOR Group Inc,Industrials,0.06
+EQT Corp,Energy,0.06
+Public Service Enterprise Group Inc,Utilities,0.06
+Ameriprise Financial Inc,Financials,0.06
+Vulcan Materials Co,Materials,0.06
+American International Group Inc,Financials,0.06
+WEC Energy Group Inc,Utilities,0.06
+Jabil Inc,Information Technology,0.06
+DR Horton Inc,Consumer Discretionary,0.06
+Hershey Co/The,Consumer Staples,0.06
+Becton Dickinson & Co,Health Care,0.06
+Iron Mountain Inc,Real Estate,0.06
+Take-Two Interactive Software Inc,Communication Services,0.06
+Consolidated Edison Inc,Utilities,0.06
+CBRE Group Inc,Real Estate,0.06
+Chipotle Mexican Grill Inc,Consumer Discretionary,0.06
+Hartford Insurance Group Inc/The,Financials,0.06
+Roper Technologies Inc,Information Technology,0.06
+Carnival Corp,Consumer Discretionary,0.06
+State Street Corp,Financials,0.06
+Hewlett Packard Enterprise Co,Information Technology,0.06
+Archer-Daniels-Midland Co,Consumer Staples,0.05
+NRG Energy Inc,Utilities,0.05
+Copart Inc,Industrials,0.05
+Arch Capital Group Ltd,Financials,0.05
+EchoStar,Communication Services,0.05
+Steel Dynamics Inc,Materials,0.05
+Extra Space Storage Inc,Real Estate,0.05
+Sysco Corp,Consumer Staples,0.05
+Texas Pacific Land Corp,Energy,0.05
+Expedia Group Inc,Consumer Discretionary,0.05
+Cboe Global Markets Inc,Financials,0.05
+Northern Trust Corp,Financials,0.05
+Casey's General Stores,Consumer Staples,0.05
+Qnity Electronics Inc,Information Technology,0.05
+Dover Corp,Industrials,0.05
+Otis Worldwide Corp,Industrials,0.05
+Atmos Energy Corp,Utilities,0.05
+Devon Energy Corp,Energy,0.05
+VICI Properties Inc,Real Estate,0.05
+ResMed Inc,Health Care,0.05
+Paychex Inc,Industrials,0.05
+Raymond James Financial Inc,Financials,0.05
+Axon Enterprise Inc,Industrials,0.05
+United Airlines Holdings Inc,Industrials,0.05
+Prudential Financial Inc,Financials,0.05
+DTE Energy Co,Utilities,0.05
+Teledyne Technologies Inc,Information Technology,0.05
+Fiserv Inc,Financials,0.05
+Kimberly-Clark Corp,Consumer Staples,0.05
+Halliburton Co,Energy,0.05
+Agilent Technologies Inc,Health Care,0.05
+Kenvue Inc,Consumer Staples,0.05
+Ameren Corp,Utilities,0.05
+Ingersoll Rand Inc,Industrials,0.05
+M&T Bank Corp,Financials,0.05
+Interactive Brokers Group Inc,Financials,0.05
+Las Vegas Sands Corp,Consumer Discretionary,0.05
+Huntington Bancshares Inc/OH,Financials,0.05
+Waters Corp,Health Care,0.05
+Workday Inc,Information Technology,0.05
+PPL Corp,Utilities,0.04
+Dexcom Inc,Health Care,0.04
+Constellation Brands Inc,Consumer Staples,0.04
+KeyCorp,Financials,0.04
+AvalonBay Communities Inc,Real Estate,0.04
+American Water Works Co Inc,Utilities,0.04
+PPG Industries Inc,Materials,0.04
+Coterra Energy Inc,Energy,0.04
+Dollar General Corp,Consumer Staples,0.04
+JB Hunt Transport Services Inc,Industrials,0.04
+Ulta Beauty Inc,Consumer Discretionary,0.04
+Willis Towers Watson PLC,Financials,0.04
+Citizens Financial Group Inc,Financials,0.04
+Cognizant Technology Solutions Corp,Information Technology,0.04
+Biogen Inc,Health Care,0.04
+Bunge Global SA,Consumer Staples,0.04
+Tapestry Inc,Consumer Discretionary,0.04
+Humana Inc,Health Care,0.04
+Synchrony Financial,Financials,0.04
+CMS Energy Corp,Utilities,0.04
+IQVIA Holdings Inc,Health Care,0.04
+Xylem Inc/NY,Industrials,0.04
+Regions Financial Corp,Financials,0.04
+Centene Corp,Health Care,0.04
+CenterPoint Energy Inc,Utilities,0.04
+SBA Communications Corp,Real Estate,0.04
+Cincinnati Financial Corp,Financials,0.04
+Rollins Inc,Industrials,0.04
+Dow Inc,Materials,0.04
+Kraft Heinz Co/The,Consumer Staples,0.04
+Hubbell Inc,Industrials,0.04
+NiSource Inc,Utilities,0.04
+Verisk Analytics Inc,Industrials,0.04
+Mettler-Toledo International Inc,Health Care,0.04
+Equity Residential,Real Estate,0.04
+Fair Isaac Corp,Information Technology,0.04
+W R Berkley Corp,Financials,0.04
+Ares Management Corp,Financials,0.04
+Edison International,Utilities,0.04
+Expand Energy Corp,Energy,0.04
+LyondellBasell Industries NV,Materials,0.04
+Fidelity National Information Services Inc,Financials,0.04
+GE HealthCare Technologies Inc,Health Care,0.04
+VeriSign Inc,Information Technology,0.04
+Eversource Energy,Utilities,0.04
+Fox Corp,Communication Services,0.04
+FirstEnergy Corp,Utilities,0.04
+Estee Lauder Cos Inc/The,Consumer Staples,0.04
+Church & Dwight Co Inc,Consumer Staples,0.03
+International Flavors & Fragrances Inc,Materials,0.03
+Evergy Inc,Utilities,0.03
+International Paper Co,Materials,0.03
+Amcor PLC,Materials,0.03
+Charter Communications Inc,Communication Services,0.03
+STERIS PLC,Health Care,0.03
+Moderna Inc,Health Care,0.03
+Expeditors International of Washington Inc,Industrials,0.03
+Southwest Airlines Co,Industrials,0.03
+F5 Inc,Information Technology,0.03
+Smurfit WestRock PLC,Materials,0.03
+Snap-on Inc,Industrials,0.03
+Loews Corp,Financials,0.03
+Tractor Supply Co,Consumer Discretionary,0.03
+Incyte Corp,Health Care,0.03
+Textron Inc,Industrials,0.03
+CH Robinson Worldwide Inc,Industrials,0.03
+T Rowe Price Group Inc,Financials,0.03
+CF Industries Holdings Inc,Materials,0.03
+CDW Corp/DE,Information Technology,0.03
+First Solar Inc,Information Technology,0.03
+Fortive Corp,Industrials,0.03
+Broadridge Financial Solutions Inc,Industrials,0.03
+Viatris Inc,Health Care,0.03
+DuPont de Nemours Inc,Materials,0.03
+Weyerhaeuser Co,Real Estate,0.03
+Brown & Brown Inc,Financials,0.03
+Equifax Inc,Industrials,0.03
+Albemarle Corp,Materials,0.03
+Darden Restaurants Inc,Consumer Discretionary,0.03
+Lennar Corp,Consumer Discretionary,0.03
+Global Payments Inc,Financials,0.03
+West Pharmaceutical Services Inc,Health Care,0.03
+Packaging Corp of America,Materials,0.03
+Principal Financial Group Inc,Financials,0.03
+Leidos Holdings Inc,Industrials,0.03
+Veralto Corp,Industrials,0.03
+Dollar Tree Inc,Consumer Staples,0.03
+General Mills Inc,Consumer Staples,0.03
+Omnicom Group Inc,Communication Services,0.03
+Labcorp Holdings Inc,Health Care,0.03
+HP Inc,Information Technology,0.03
+Tyson Foods Inc,Consumer Staples,0.03
+Alliant Energy Corp,Utilities,0.03
+Lennox International Inc,Industrials,0.03
+Essex Property Trust Inc,Real Estate,0.03
+NVR Inc,Consumer Discretionary,0.03
+NetApp Inc,Information Technology,0.03
+Invitation Homes Inc,Real Estate,0.03
+Ralph Lauren Corp,Consumer Discretionary,0.03
+Corpay Inc,Financials,0.03
+PulteGroup Inc,Consumer Discretionary,0.03
+Quest Diagnostics Inc,Health Care,0.03
+Williams-Sonoma Inc,Consumer Discretionary,0.03
+Akamai Technologies Inc,Information Technology,0.02
+AES Corp/The,Utilities,0.02
+Tyler Technologies Inc,Information Technology,0.02
+Assurant Inc,Financials,0.02
+Wynn Resorts Ltd,Consumer Discretionary,0.02
+Allegion plc,Industrials,0.02
+Align Technology Inc,Health Care,0.02
+Universal Health Services Inc,Health Care,0.02
+Zimmer Biomet Holdings Inc,Health Care,0.02
+Zebra Technologies Corp,Information Technology,0.02
+Avery Dennison Corp,Materials,0.02
+Trade Desk Inc/The,Communication Services,0.02
+Trimble Inc,Information Technology,0.02
+Ball Corp,Materials,0.02
+Best Buy Co Inc,Consumer Discretionary,0.02
+Aptiv PLC,Consumer Discretionary,0.02
+APA Corp,Energy,0.02
+UDR Inc,Real Estate,0.02
+Host Hotels & Resorts Inc,Real Estate,0.02
+Brown-Forman Corp,Consumer Staples,0.02
+Nordson Corp,Industrials,0.02
+Everest Group Ltd,Financials,0.02
+Mid-America Apartment Communities Inc,Real Estate,0.02
+Federal Realty Investment Trust,Real Estate,0.02
+McCormick & Co Inc/MD,Consumer Staples,0.02
+Masco Corp,Industrials,0.02
+Franklin Resources Inc,Financials,0.02
+Lululemon Athletica Inc,Consumer Discretionary,0.02
+Gartner Inc,Information Technology,0.02
+Gen Digital Inc,Information Technology,0.02
+Generac Holdings Inc,Industrials,0.02
+Kimco Realty Corp,Real Estate,0.02
+Genuine Parts Co,Consumer Discretionary,0.02
+Globe Life Inc,Financials,0.02
+GoDaddy Inc,Information Technology,0.02
+Jacobs Solutions Inc,Industrials,0.02
+Jack Henry & Associates Inc,Financials,0.02
+J M Smucker Co/The,Consumer Staples,0.02
+Invesco Ltd,Financials,0.02
+Hasbro Inc,Consumer Discretionary,0.02
+Healthpeak Properties Inc,Real Estate,0.02
+Hormel Foods Corp,Consumer Staples,0.02
+IDEX Corp,Industrials,0.02
+Huntington Ingalls Industries Inc,Industrials,0.02
+News Corp,Communication Services,0.02
+Erie Indemnity Co,Financials,0.02
+Insulet Corp,Health Care,0.02
+Pentair PLC,Industrials,0.02
+Skyworks Solutions Inc,Information Technology,0.02
+CoStar Group Inc,Real Estate,0.02
+Regency Centers Corp,Real Estate,0.02
+Solventum Corp,Health Care,0.02
+Cooper Cos Inc/The,Health Care,0.02
+Stanley Black & Decker Inc,Industrials,0.02
+Pinnacle West Capital Corp,Utilities,0.02
+Clorox Co/The,Consumer Staples,0.02
+DaVita Inc,Health Care,0.02
+Deckers Outdoor Corp,Consumer Discretionary,0.02
+Camden Property Trust,Real Estate,0.02
+Super Micro Computer Inc,Information Technology,0.02
+Paramount Skydance Corp,Communication Services,0.02
+TKO Group Holdings Inc,Communication Services,0.02
+PTC Inc,Information Technology,0.02
+Domino's Pizza Inc,Consumer Discretionary,0.02
+A O Smith Corp,Industrials,0.01
+Henry Schein Inc,Health Care,0.01
+Campbell's Company/The,Consumer Staples,0.01
+Bio-Techne Corp,Health Care,0.01
+Charles River Laboratories International Inc,Health Care,0.01
+EPAM Systems Inc,Information Technology,0.01
+Revvity Inc,Health Care,0.01
+Alexandria Real Estate Equities Inc,Real Estate,0.01
+Norwegian Cruise Line Holdings Ltd,Consumer Discretionary,0.01
+Conagra Brands Inc,Consumer Staples,0.01
+BXP Inc,Real Estate,0.01
+Pool Corp,Consumer Discretionary,0.01
+MGM Resorts International,Consumer Discretionary,0.01
+FactSet Research Systems Inc,Financials,0.01
+Molson Coors Beverage Co,Consumer Staples,0.01
+Mosaic Co/The,Materials,0.01
+Builders FirstSource Inc,Industrials,0.01
+Baxter International Inc,Health Care,0.01
