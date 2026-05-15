@@ -37,6 +37,7 @@ cumulative_returns_pct = cumulative_returns.copy()
 for col in ["XLK_Close", "XLF_Close", "XLE_Close", "XLV_Close", "SPY_Close"]:
     cumulative_returns_pct[col] = ((cumulative_returns_pct[col] - 1) * 100)
 
+
 cumulative_returns_pct.plot(
     x="Date",
     y=["XLK_Close", "XLF_Close", "XLE_Close", "XLV_Close", "SPY_Close"]
@@ -51,7 +52,7 @@ plt.grid(alpha=0.75)
 plt.savefig("outputs/figures/figure2_cumulative_returns.png")
 plt.close()
 
-# Figure 3: S&P 500 sector weight
+# Figure 3: Sector index weight distribution within the S&P 500
 
 plt.figure(figsize=(8, 8))
 plt.pie(
@@ -69,7 +70,7 @@ plt.tight_layout()
 plt.savefig("outputs/figures/figure3_sector_weight.png")
 plt.close()
 
-# Figure 4a: Number of S&P 500 firms by sector
+# Figure 4: Number of S&P 500 firms by sector
 sector_counts = sector_weight_summary[["GICS Sector", "Company Count"]]
 
 sector_counts = (sector_counts.sort_values(by="Company Count", ascending=False).reset_index(drop=True))
