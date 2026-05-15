@@ -1,0 +1,20 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+conda-env/
+
+# System files
+.DS_Store
+
+
+# VS Code settings
+.vscode/
+
